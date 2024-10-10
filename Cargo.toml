@@ -7,8 +7,8 @@ repository = "https://github.com/Lightprotocol/groth16-solana"
 license = "MIT"
 
 [dependencies]
-solana-program = { git = "https://github.com/anza-xyz/agave" }
-solana-bn254 = { git = "https://github.com/anza-xyz/agave" }
+solana-program = { git = "https://github.com/anza-xyz/agave" , rev = "6e62af0f0de6a40e4e22628cbbcf63b1a6da560e" }
+solana-bn254 = { git = "https://github.com/anza-xyz/agave" , rev = "6e62af0f0de6a40e4e22628cbbcf63b1a6da560e" }
 thiserror = "1.0"
 ark-serialize = "0.4.2"
 ark-ec = "0.4.2"
